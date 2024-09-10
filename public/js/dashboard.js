@@ -191,7 +191,7 @@
             {
               label: 'Online Sales',
               data: [400, 340, 550, 480, 170],
-              backgroundColor: '#4B49AC'
+              backgroundColor: '#C428E1'
             }
           ]
         },
@@ -266,7 +266,7 @@
             {
               label: 'Online Sales',
               data: [400, 340, 550, 480, 170],
-              backgroundColor: '#4B49AC'
+              backgroundColor: '#C428E1'
             }
           ]
         },
@@ -333,7 +333,7 @@
         datasets: [{
             data: [100, 50, 50],
             backgroundColor: [
-               "#4B49AC","#FFC100", "#248AFD",
+               "#C428E1","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -406,7 +406,7 @@
         datasets: [{
             data: [100, 50, 50],
             backgroundColor: [
-               "#4B49AC","#FFC100", "#248AFD",
+               "#C428E1","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -480,7 +480,7 @@
         datasets: [{
             data: [60, 70, 70],
             backgroundColor: [
-              "#4B49AC","#FFC100", "#248AFD",
+              "#C428E1","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }
@@ -553,7 +553,7 @@
         datasets: [{
             data: [60, 70, 70],
             backgroundColor: [
-              "#4B49AC","#FFC100", "#248AFD",
+              "#C428E1","#FFC100", "#248AFD",
             ],
             borderColor: "rgba(0,0,0,0)"
           }

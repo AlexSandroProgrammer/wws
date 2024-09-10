@@ -31,15 +31,15 @@
             <div class="slider">
                 <!-- Slide 1 -->
                 <div class="slide fade ">
-                    <img src="images/auth/slide_1.jpg" alt="">
+                    <img src="<?= base_url("images/auth/slide_1.jpg") ?>" alt="">
                 </div>
                 <!-- Slide 3 -->
                 <div class="slide fade">
-                    <img src="images/auth/slide_2.jpg" alt="">
+                    <img src="<?= base_url("images/auth/slide_2.jpg") ?> " alt="">
                 </div>
                 <!-- Slide 4 -->
                 <div class="slide fade">
-                    <img src="images/auth/slide_3.jpg" alt="">
+                    <img src="<?= base_url("images/auth/slide_3.jpg") ?>" alt="">
                 </div>
             </div>
 
@@ -56,7 +56,7 @@
         <div class="contenedor-texto">
             <div class="contenedor-form">
                 <div class="container-center">
-                    <h1 class="titulo"><img src="images/favicon/logo.png" alt="" class="log_free">
+                    <h1 class="titulo"><img src="<?= base_url("images/favicon/logo.png") ?>" alt="" class="log_free">
                     </h1>
                     <h1 class="titulo_login">Iniciar sesion </h1>
                     <p class="descripcion">Ingresa tus credenciales para continuar.</p>
@@ -66,7 +66,7 @@
                     <!--========================================
                         Formulario login
                     ==========================================-->
-                    <form method="post" action="<?= site_url('/login') ?>" autocomplete="off" id="formLogin"
+                    <form method="post" action="<?= site_url('/register') ?>" autocomplete="off" id="formLogin"
                         class="formulario active">
                         <input type="email" autofocus placeholder="Ingresa tu mail" class="input-text" name="mail"
                             required>

@@ -8,6 +8,12 @@ class Admin extends Controller
 {
     public function index(): string
     {
-        return view('admin/index');
+        // parametros de datos
+        $data = [
+            'title' => 'Bienvenido Usuario',
+            'message' => 'Bienvenido al panel de administración',
+            'sidebarItems' => ['Item 1', 'Item 2', 'Item 3'], // Datos para el sidebar
+        ];
+        return view('admin/index', $data);
     }
 }
