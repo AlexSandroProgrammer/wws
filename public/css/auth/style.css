@@ -40,7 +40,7 @@
     -webkit-box-align: start;
     align-items: flex-start;
     overflow: hidden;
-    background-color: #364e65;
+    background-color: transparent;
   }
   
   /*========================================
@@ -74,9 +74,9 @@
   }
   
   .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 60%;
+    height: 60%;
+    margin: auto;
   }
   
   /*========================================

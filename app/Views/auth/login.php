@@ -30,16 +30,16 @@
         <div class="contenedor-slider">
             <div class="slider">
                 <!-- Slide 1 -->
-                <div class="slide fade ">
-                    <img src="<?= base_url("images/auth/slide_1.jpg") ?>" alt="">
+                <div class="slide fade">
+                    <img src="<?= base_url("images/auth/slide_1.svg") ?>" alt="">
                 </div>
                 <!-- Slide 3 -->
                 <div class="slide fade">
-                    <img src="<?= base_url("images/auth/slide_2.jpg") ?> " alt="">
+                    <img src="<?= base_url("images/auth/slide_2.svg") ?> " alt="">
                 </div>
                 <!-- Slide 4 -->
                 <div class="slide fade">
-                    <img src="<?= base_url("images/auth/slide_3.jpg") ?>" alt="">
+                    <img src="<?= base_url("images/auth/slide_3.svg") ?>" alt="">
                 </div>
             </div>
 
