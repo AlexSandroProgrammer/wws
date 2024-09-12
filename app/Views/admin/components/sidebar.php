@@ -333,9 +333,6 @@
                         </a>
                         <div class="collapse" id="stores">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="<?= base_url("stores/register") ?>">Registro de
-                                        Tienda</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="<?= base_url("stores") ?>">Lista de
                                         Tiendas</a></li>
                             </ul>
@@ -401,11 +398,9 @@
                         </a>
                         <div class="collapse" id="brands">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="<?= base_url("brands/register") ?>">Crear
-                                        Estado</a></li>
+
                                 <li class="nav-item"> <a class="nav-link" href="<?= base_url("brands") ?>">Lista de
-                                        Estados</a></li>
+                                        Marcas</a></li>
                             </ul>
                         </div>
                     </li>
@@ -418,9 +413,6 @@
                         </a>
                         <div class="collapse" id="states">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="<?= base_url("states/register") ?>">Crear
-                                        Estado</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="<?= base_url("states") ?>">Lista de
                                         Estados</a></li>
                             </ul>
